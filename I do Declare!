@@ -1,0 +1,9 @@
+var num_0 = 42;
+var num_1 = 66;
+var num_2 = 999;
+var firstName = "scott";
+var lastName = "twitchell";
+var good = yes;
+var bad = no;
+var y = x;
+console.log('numbers'num_0,num_1,num_2, "My name", firstName, lastName, 'ummm what?, good, bad, y');
