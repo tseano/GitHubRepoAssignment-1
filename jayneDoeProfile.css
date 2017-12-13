@@ -1,0 +1,22 @@
+@charset "utf-8";
+#wrapper{
+	background-color: #6F5964;
+	height: 100%;
+	width: 100%;
+}
+#proPic{
+	width: 500px;
+	height: 350px;
+}
+#header{
+	width: 100%;
+	background-color: darkgrey;
+}
+h1{
+line-height:;	
+}
+#topH2{
+	vertical-align: top;
+	padding-left: 940px;
+}
+
