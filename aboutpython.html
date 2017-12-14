@@ -9,79 +9,89 @@
 <body>
 <div id="wrapper">
 	 <div id="header">
-		<img src="images/python.png" width="580" height="164" alt=""/>
+		<img src="images/python.png" width="350" height="100" alt=""/>
 	 </div> 	
 		<div id="searchContainer">
 			<div id="links">Text Size:
 	  			<a class="size" href="#">Normal</a>
+	  			<p>|</p>
 	    		<a class="size" href="#">Large</a>
 	  		
 	  		<div id="search">
-	  			<input type="text">
-	  			<button id="butt">GO</button>
+	  			<input type="text" placeholder="search">
+	  			<button>GO</button>
 	  		</div>	
 		    </div>
 	    </div>
 	<div id="nav">
 	   <ul>
-			<li class="nav"><a href="#">About</a></li>
-			<li class="nav"><a href="#">Downloads</a></li>
-			<li class="nav"><a href="#">Documentation</a></li>
-			<li class="nav"><a href="#">Community</a></li>
-			<li class="nav"><a href="#">News</a></li>
-			<li class="nav"><a href="#">Events</a></li>
+			<li class="cNav"><a class="nav" href="#">About</a></li>
+			<li class="cNav"><a class="nav" href="#">Downloads</a></li>
+			<li class="cNav"><a class="nav" href="#">Documentation</a></li>
+			<li class="cNav"><a class="nav" href="#">Community</a></li>
+			<li class="cNav"><a class="nav" href="#">News</a></li>
+			<li class="cNav"><a class="nav" href="#">Events</a></li>
 	   </ul>
     </div>
 	<div id="mainContent">
 		<div id="sideContent">
 			<ul>
-				<li><a href="#">Doca</a></li>
-				<li><a href="#">Audio/Visual Talks</a></li>
-				<li><a href="#">Beginner's Guide</a></li>
-				<li><a href="#">Developer's Guide</a></li>
-				<li><a href="#">PEP index</a></li>
-				<li><a href="#">Python Books</a></li>
-				<li><a href="#">FAQ</a></li>
+				<li class="bNav"><span>>></span><a class="side" href="#">Doca</a></li>
+				<li class="bNav"><span>>></span><a class="side" href="#">Audio/Visual Talks</a></li>
+				<li class="bNav"><span>>></span><a class="side" href="#">Beginner's Guide</a></li>
+				<li class="bNav"><span>>></span><a class="side" href="#">Developer's Guide</a></li>
+				<li class="bNav"><span>>></span><a class="side" href="#">PEP index</a></li>
+				<li class="bNav"><span>>></span><a class="side" href="#">Python Books</a></li>
+				<li class="bNav"><span>>></span><a class="side" href="#">FAQ</a></li>
 			</ul>
-	  </div>
+	    </div>
 		<div id="rightContent">
 		  <p id="topText">First appearing in 1991, Python is a general-purpose, high-level, interpreted programming language whose design focus emphasizes code readability. Whether for processing/analyzing data to powering many well-known applications, Python is not only a great language for new programmers but also powerful enough for seasoned developers building whatever they can think of.</p>
 		  <p id="lowerText">
-				Beautiful is better than ugly;
-				Explicit is better than implicit;
-				Simple is better then complex;
-				Complex is better than complicated;
-				Readability counts;
+				<h3 class="ltcolor">Beautiful is better than ugly;</h3>
+				<h3 class="ltcolor">Explicit is better than implicit;</h3>
+				<h3 class="ltcolor">Simple is better then complex;</h3>
+				<h3 class="ltcolor">Complex is better than complicated;</h3>
+				<h3 class="ltcolor">Readability counts;</h3>
 		  </p>
-			<p>The Zen of Python</p>
-	  </div>
+			<p id="zen">The Zen of Python</p>
+	    </div>
 	</div>
-	<div id="subcontent">
-		<h3>Getting Started</h3>
-	  <p>Python can be easy to pick up whether you're a first time programmer or you're eperienced with other languages. the following pages are a useful first step to get on your way writing programs with Python!</p>
-			<ul>
-				<li><a href="#">Beginner's Guide, Programmers</a></li>
-				<li><a href="#">Beginner's Guide, Non-programmers</a></li>
-				<li><a href="#">Code sample and snippets for Beginners </a></li>
-			</ul>
-			<h3>Applications</h3>
-	  <p>The <a href="#">Python Packages Index (PyPI)</a> hosts thousands of third-party modules for Python. Both Python's standard library and community-contributed modules allow for endless possibilities.</p>
-			<ul>
-				<li><a href="#">Web and Internet Development</a></li>
-				<li><a href="#">Database Access</a></li>
-				<li><a href="#">Desktop GUIs</a></li>
-				<li><a href="#">Network Programming</a></li>
-				<li><a href="#">Software and Game Development</a></li>
-			</ul>
-  </div>
+	 <div id="subcontent">
+		 <table width="0" border="0">
+		  <tbody>
+			<tr>
+			  <td><h3>Getting Started</h3>
+			  <p>Python can be easy to pick up whether you're a first time programmer or you're eperienced with other languages. the following pages are a useful first step to get on your way writing programs with Python!
+			  </p>
+					<ul>
+						<li><a href="#">Beginner's Guide, Programmers</a></li>
+						<li><a href="#">Beginner's Guide, Non-programmers</a></li>
+						<li><a href="#">Code sample and snippets for Beginners </a></li>
+					</ul>
+			 </td>
+			  <td><h3>Applications</h3>
+			  <p>The <a href="#">Python Packages Index (PyPI)</a> hosts thousands of third-party modules for Python. Both Python's standard library and community-contributed modules allow for endless possibilities.</p>
+					<ul>
+						<li><a href="#">Web and Internet Development</a></li>
+						<li><a href="#">Database Access</a></li>
+						<li><a href="#">Desktop GUIs</a></li>
+						<li><a href="#">Network Programming</a></li>
+						<li><a href="#">Software and Game Development</a></li>
+					</ul>
+			  </td>
+			</tr>
+		  </tbody>
+		 </table>
+	 </div>
 	<div id="footer">
-		<ul>
-			<li><a href="#">Help and General Contact</a></li>
-			<li><a href="#">Diversity Initiatives</a></li>
-			<li><a href="#">Submit Website Bugs</a></li>
+		<ul >
+			<li><a class="fText" href="#">Help and General Contact</a></li>
+			<li><a class="fText" href="#">Diversity Initiatives</a></li>
+			<li><a class="fText" href="#">Submit Website Bugs</a></li>
 		</ul>
 		<p>Copyright 2001-2016</p>
-  </div>
+    </div>
 </div>
 </body>
 </html>

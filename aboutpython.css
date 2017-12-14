@@ -13,7 +13,7 @@
 }
 #searchContainer{  
 	vertical-align: top;
-	margin-left: 175px;
+	margin-left: 390px;
 	margin-bottom: 0px;
 	display: inline-block;
 } 
@@ -21,13 +21,17 @@
 	border-radius: 10px;
 	color: white;
 	height: 40px;
-	width: 200px;
+	width: 220px;
 	background-color: #444444;
 	padding-top: 10px;
 	
 }
-#butt{
-	
+#search button{
+	background-color: #245076;
+}
+#searchContainer p{
+	display: inline-block;
+	color: black
 }
 .size{
 	color: #f0cb34;
@@ -50,20 +54,115 @@
 	display: flex;
 	box-shadow: 2px 2px 2px black;
 }
-li{
+.cNav{ display: inline;
 	
-	margin-left: 80;
 }
-ul{
-}
-a{
-	color: white;
-	text-decoration: none;
+.bNav{
+	margin-left: 160px;;
+	margin-top: 15px;
 }
 .nav{
+	color: white;
+	text-decoration: none;
 	font-size: 25px;
 	text-align: center;
 	display: inline;
 	margin-left: 15px;
 	margin-right: 15px;
+}
+#sideContent{
+	display:inline-block; 
+	color: #FFFFFF;
+	
+}
+#sideContent ul{
+	display: inline-block;
+}
+#sideContent li{
+	list-style: none;
+}
+.side{
+	font-size: 18px;
+	color: #FFFFFF;
+}
+#topText{
+	vertical-align: top;
+	
+	height:100px;
+	width: 600px;
+	color: #FFFFFF;
+	display: inline-block;
+}
+#rightContent{
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+}
+#rightContent p{
+	color: #FFFFFF;
+}
+#lowerText{
+	font-size: 40px;
+	vertical-align: top;
+	display: inline-block;
+}
+#lowerText h3{
+	margin-bottom: 100px;
+}
+#zen{
+	display: inline-block;
+	vertical-align:bottom;
+}
+#subcontent{
+	background-color: #FFFFFF;
+}
+#subcontent h3{
+	list-style: none;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#subcontent p{
+	margin-left: 10px;
+}
+#footer{
+
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	width: 970px;
+	height: 100px;
+	background-color:#245076;  
+}
+.ltcolor{
+	margin-bottom: 30px;
+	color: #c8b241;
+}
+.fText{	
+	margin-left: 50px;
+	display: inline;
+	color: #6095c2;
+	text-decoration: none;
+}
+#footer li{
+	margin-top: 20px;
+	display:inline-block;
+	width: 800;
+	height: 35px;
+	
+}
+#subcontent h3{
+	text-align: center;
+	vertical-align: top;
+}
+#subcontent a{
+	color: #9cc1e1;
+	text-decoration: none;
+}
+#subcontent li{
+
+	 margin-left: 100px;
+}
+#subcontent td{
+	border-top:  2px solid #73a7d5;
 }
