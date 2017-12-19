@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="jquaryfinction.css">
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+ 
+<script></script>
+</head>
+
+
+<body>
+<div id="wrapper">
+	<div>
+		<h1>Slideup</h1>
+		<p id="slideup">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id.</p>
+		<button id="aclickme">slideUp</button>
+	</div>
+	<div>
+	<h1>hideclass</h1>
+	<p id="hideme">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id.</p>
+	<button id="bclickme">button</button>
+	</div>
+	<div><h1>show</h1>
+	<p id="showme" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id.</p>
+	<button id="cclickme">button</button></div>
+	<div><h1>toggle</h1>
+	<p id="toggleme">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id.</p>
+	<button id="dclickme">button</button></div>
+	<div>
+		<h1>Slide Down</h1>
+		<p id="slidedown" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id.</p>
+		<button id="fclickme">slideUp</button>
+	</div>
+	
+	<div>
+		<h1>Slide Toggle</h1>
+		<p id="slidetoggle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id.</p>
+		<button id="gclickme">slideoggle</button>
+	</div>
+	
+	<div>
+		<h1>fade in</h1>
+		<p id="fadein" style="display: none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id.</p>
+		<button id="hclickme">button</button>
+	</div>
+	<div><h1>fade out</h1>
+		<p id="fadeout">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id.</p>
+		<button id="iclickme">button</button>
+	</div>
+	<div><h1>addclass</h1>
+		<p id="addclass">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id.</p>
+		<button id="kclickme">button</button>
+	</div>
+	<div><h1>before</h1>
+		<p id="before">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id.</p>
+		<button id="lclickme">button</button>
+	</div>
+	
+	<div><h1>after</h1>
+		<p id="after">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id.</p>
+		<button id="mclickme">button</button>
+	</div>
+	<div><h1>append</h1>
+		<p id="append">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id.</p>
+		<button id="nclickme">button</button>
+	</div>
+	<div><h1>html</h1>
+		<p id="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id.</p>
+		<button id="oclickme">button</button>
+	</div>
+	
+	
+		
+</div> 
+<script>
+$(document).ready(function(){
+	$("#aclickme").click(function(){
+		$("#slideup").slideUp();
+		
+	})
+	$("#bclickme").click(function(){
+		$("#hideme").hide();
+		})
+	$("#cclickme").click(function(){
+		$("#showme").show();
+		})
+	$("#dclickme").click(function(){
+		$("#toggleme").toggle();
+		})
+	$("#dclickme").click(function(){
+		$("#toggleme").toggle();
+		})
+	$("#fclickme").click(function(){
+		$("#slidedown").slideDown();
+		})
+	$("#gclickme").click(function(){
+		$("#slidetoggle").slideToggle();
+		})
+	$("#hclickme").click(function(){
+		$("#fadein").fadeIn();
+		})
+	$("#iclickme").click(function(){
+		$("#fadeout").fadeOut();
+		})
+	$("#jclickme").click(function(){
+		$("#fadeout").fadeOut();
+		})
+	
+	$("#kclickme").click(function(){
+		$("#addclass").addClass("bluebutton");
+		})
+	$("#lclickme").click(function(){
+		$("#before").before("<p>This is before text</p>");
+		})
+	$("#mclickme").click(function(){
+		$("#after").after("<p>This is before text</p>");
+		})
+	
+	$("#nclickme").click(function(){
+		$("#append").append("This is before text");
+		})
+	$("#oclickme").click(function(){
+		$("#after p").html();
+		})
+})
+
+	</script>
+</body>
+</html>

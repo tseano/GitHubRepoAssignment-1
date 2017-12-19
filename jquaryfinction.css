@@ -1,0 +1,12 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#addClass{
+	background: #FD0004;
+	height: 100px;
+	width: 970px;
+}
+.bluebutton{
+	background-color: blue;
+}
